@@ -37,7 +37,7 @@ public class Main {
 
         }while (newNum < 100);
         System.out.print(newNum);*/
-        int num1;
+       /* int num1;
         int num2;
         do{
             System.out.println("input number 1: ");
@@ -45,7 +45,37 @@ public class Main {
             System.out.println("input number 2: ");
             num2=scanner.nextInt();
         }while(num1!=num2);
-        System.out.println(String.format("THE NUMBERS ARE THE SAME = %d",num1));
+        System.out.println(String.format("THE NUMBERS ARE THE SAME = %d",num1));*/
+        int day;
+        System.out.println("input day from 1-7");
+        day= scanner.nextInt();
+        switch (day){
+            case 1:
+                System.out.println("ראשון");
+                break;
+            case 2:
+                System.out.println("שני");
+                break;
+            case 3:
+                System.out.println("שלישי");
+                break;
+            case 4:
+                System.out.println("רביעי");
+                break;
+            case 5:
+                System.out.println("חמישי");
+                break;
+            case 6:
+                System.out.println("שישי");
+                break;
+            case 7:
+                System.out.println("שבת");
+                break;
+            default:
+                System.out.println("זה לא יום בשבוע");
+
+        }
+
     }
 }
 
